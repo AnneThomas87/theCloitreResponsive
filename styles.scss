@@ -1,0 +1,140 @@
+$bases-yellow : #ECD481;
+
+@mixin spaceText {
+    text-align: left;
+    margin-left: 30px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+input[type="search"]{
+    border: none;
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+   }
+.searchBar {
+border: 2px solid black;
+width: 380px;
+border-radius: 20px;
+}
+button{
+    border: none;
+    background: none;
+  
+}
+    
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header{
+    font-size: 1em;
+}
+.Profil{
+
+    border: 2px solid black;
+    width: 50px;
+    height: 30px;
+ 
+    border-radius: 30px;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+  
+  
+}
+.profil{
+margin-right: 10px;
+}
+
+span {
+    margin: 5px;
+}
+
+.carrousel img {
+
+// align-items: center;
+   width: 60px;
+}
+.carrousel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ECD481;
+padding: 10px;
+}
+.Cabanesperchées {
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    align-items: center;
+    background-color: red;
+}
+.logement1 {
+    display: flex;
+}
+.logement2{
+    display: flex;
+}
+
+.logement img {
+    padding: 30px;
+    width: 300px;
+    height: 250px;
+}
+
+.logement1 h3 {
+@include spaceText;
+}
+
+.logement1 p {
+@include spaceText;
+}
+
+.logement2 h3 {
+    @include spaceText;
+   
+}
+.logement2 p {
+    @include spaceText;
+}
+ h3 {
+    margin-top: -15px;
+ }
+ p {
+    margin-bottom: 15px;
+ }
+.logement2 img{
+    padding: 30px;
+    width: 300px;
+    height: 250px;
+   
+}
+
+.O
+{
+    border-radius: 40px;
+}
+.bouton 
+{
+    position: absolute;
+    top: -30px;
+}
+ 
+
+.btn{
+margin-top:  -35px;
+  float: right;   
+  margin-right: 40px;
+}
+.bonhomme{
+   margin-left: -20px;
+}
